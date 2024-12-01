@@ -82,6 +82,7 @@ You can stop recording with `:!Obsession`
 - [ ] Add script that "stows" all configs.
 - [ ] Add more info to README file.
 - [ ] Add list of all epic tools.
+- [ ] Add type of font used.
 
 
 <br>
