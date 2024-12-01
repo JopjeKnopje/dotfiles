@@ -12,7 +12,7 @@
   switch_to_tab_8 = <Alt>8
   switch_to_tab_9 = <Alt>9
   switch_to_tab_10 = <Alt>0
-  layout_launcher = Home
+  layout_launcher = ""
   preferences = <Primary>comma
 [profiles]
   [[default]]
