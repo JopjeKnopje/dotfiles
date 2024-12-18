@@ -83,6 +83,7 @@ You can stop recording with `:!Obsession`
 - [ ] Add more info to README file.
 - [ ] Add list of all epic tools.
 - [ ] Add type of font used.
+- [ ] Tmux notification when command is done running (for terraform and the like). 
 
 
 <br>
