@@ -7,6 +7,8 @@ alias ga='git add'
 alias gap='git add --patch'
 alias gs='git status'
 alias gc='git commit'
+# Search for file
+alias gsf='git log --all --full-history --stat -- '
 alias gp='git push'
 alias gco='git checkout'
 alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'
