@@ -43,12 +43,17 @@ TBA
 TBA
 ## [ranger](https://github.com/ranger/ranger)
 TBA
+## [grc](https://github.com/garabik/grc)
+TBA
 ## [tmux](https://github.com/tmux/tmux)
 here is a handy [tmux cheatsheet](https://tmuxcheatsheet.com/) for learning some keybinds.
 If you want to use the plugins specified in the `tmux.conf`, you'd need to install [tpm](https://github.com/tmux-plugins/tpm)
 ```
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+#### Installation
+When running tmux for the first time you should run `prefix` + `I` to install the plugins.
 
 
 #### Features
