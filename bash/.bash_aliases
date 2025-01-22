@@ -103,6 +103,9 @@ alias dc='docker compose'
 alias dotfiles='tmux new-window -n dotfiles -c ~/dotfiles/ "nvim -S; `which $SHELL`"'
 
 
+# tempdir
+alias tmp='cd $(mktemp -d)'
+
 
 GRC="$(which grc)"
 if [ "$TERM" != dumb ] && [ -n "$GRC" ]; then
