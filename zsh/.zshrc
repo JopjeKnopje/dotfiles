@@ -1,3 +1,4 @@
+autoload -U +X compinit && compinit
 source ~/dotfiles/bash/.paths
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -133,8 +134,9 @@ export CPLUS_INCLUDE_PATH=/usr/include/c++/11:/usr/include/x86_64-linux-gnu/c++/
 if [ -x "$(which pyenv)" ]
 then
 	eval "$(pyenv init -)"
-
 fi
+
+source <(kubectl completion zsh)
 
 
 if [ -f ~/.bash_aliases ]; then
@@ -142,3 +144,4 @@ if [ -f ~/.bash_aliases ]; then
 else
 	source ~/dotfiles/bash/.bash_aliases
 fi
+

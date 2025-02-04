@@ -146,7 +146,9 @@ if [ "$TERM" != dumb ] && [ -n "$GRC" ]; then
     alias semanage='colourify semanage'
     alias getsebool='colourify getsebool'
     alias ifconfig='colourify ifconfig'
-    alias kubectl='colourify kubectl'
+    # alias kubectl='colourify kubectl'
+	# Using colourify breaks the autocomplete setup in .zshrc
+	alias k="kubectl"
 	# alias k="colourify minikube kubectl --"
 fi
 
