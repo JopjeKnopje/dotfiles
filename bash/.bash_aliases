@@ -33,6 +33,7 @@ alias aptrr='sudo apt purge'
 
 
 # ls stuff
+alias ls='ls --group-directories-first --color=auto'
 alias lsd='ls -d .*'
 alias ll='ls -alF'
 alias la='ls -A'
