@@ -136,7 +136,11 @@ then
 	eval "$(pyenv init -)"
 fi
 
-source <(kubectl completion zsh)
+
+if [ -x "$(command -v kubectl)"  ]
+then
+	source <(kubectl completion zsh)
+fi
 
 
 if [ -f ~/.bash_aliases ]; then
