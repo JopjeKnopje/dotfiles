@@ -101,7 +101,7 @@ alias dc='docker compose'
 
 
 # tmux stuff
-alias dotfiles='tmux new-window -n dotfiles -c ~/dotfiles/ "nvim -S; `which $SHELL`"'
+# alias dotfiles='tmux new-window -n dotfiles -c ~/dotfiles/ "nvim -S; `which $SHELL`"'
 
 
 # tempdir

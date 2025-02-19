@@ -10,6 +10,11 @@ Managed using [GNU stow](https://www.gnu.org/software/stow/).
 $ git clone git@github.com:JopjeKnopje/dotfiles.git
 ```
 
+To install the binaries to `~/.local/bin` run.
+```
+bash bin/install.sh
+```
+
 
 To install the files simply symlink them using stow
 ```
@@ -72,8 +77,8 @@ When using obsession.vim to "record" you vim session simply run `:Obsession` whi
 The cool part is that after you've ran it once it will remember its state, and will continue recording the next time you open up that vim session.
 You can stop recording with `:!Obsession`
 
-### neovim
-#### Theme
+### [tms](https://github.com/jrmoulton/tmux-sessionizer)
+I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releases/tag/v0.4.2) in `~/.local/bin`
 
 <br>
 
