@@ -89,6 +89,7 @@ You can stop recording with `:!Obsession`
 - [ ] Add list of all epic tools.
 - [ ] Add type of font used.
 - [ ] Tmux notification when command is done running (for terraform and the like). 
+- [ ] Add `./local` to this repo.
 - [ ] Installation script which will download all the programs and setup their plugins.
 
 
