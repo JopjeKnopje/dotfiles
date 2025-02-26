@@ -96,6 +96,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Tmux notification when command is done running (for terraform and the like). 
 - [ ] Add `./local` to this repo.
 - [ ] Installation script which will download all the programs and setup their plugins.
+- [ ] Markdown preview plugin for nvim
 
 
 <br>
