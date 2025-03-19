@@ -16,6 +16,8 @@ bash bin/install.sh
 ```
 
 
+
+
 To install the files simply symlink them using stow
 ```
 $ cd dotfiles
@@ -29,6 +31,11 @@ Uninstalling configs
 $ cd dotfiles
 $ stow -D neovim 
 ```
+
+
+### Font installation
+
+Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip) and use the UI to install them instead of copying them manually to `~/.local/share/fonts` (for some reason this doens't work for me).
 
 <br>
 
