@@ -89,6 +89,13 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 
 <br>
 
+## TODO NVIM
+- [ ] remove terminator.
+- [ ] setup original keybinds from old config.
+- [ ] get rid of these fucking underlines in text.
+- [ ] try to  write to python, js and c/c++ to see if the dev envs are actually working properly.
+
+
 ## TODO
 - [ ] Add dynamic config that loads shit depending on the system its on, for example work laptop or codam pc.
 - [ ] Setup tmux mouse copy.
@@ -114,3 +121,4 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [brw/dotfiles](https://github.com/brw/dotfiles)
 - [LunarVim/Neovim-from-scratch](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
 - [theprimeagen/remap.lua](https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua)
+
