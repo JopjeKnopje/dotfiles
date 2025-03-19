@@ -45,7 +45,7 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 TBA
 ## [terminator](https://gnome-terminator.org/)
 TBA
-## [neovim](https://github.com/neovim/neovim/releases/tag/v0.9.0)
+## [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
 TBA
 ## [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
 TBA
