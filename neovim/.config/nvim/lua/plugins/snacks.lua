@@ -17,7 +17,10 @@ return {
     scope = { enabled = true },
     scroll = { enabled = false },
     statuscolumn = { enabled = true },
-    words = { enabled = true },
+    words = {
+			enabled = true,
+			debounce = 0,
+		},
     -- TODO this doenst disable the fucking scratch...
     scratch = { enabled = false },
   },
