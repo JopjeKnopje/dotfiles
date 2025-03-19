@@ -115,7 +115,6 @@ return {
     -- setup autoformat
     LazyVim.format.register(LazyVim.lsp.formatter())
     -- disable auto-formatting by default.
-    LazyVim.format.enable(false)
 
     -- setup keymaps
     LazyVim.lsp.on_attach(function(client, buffer)
