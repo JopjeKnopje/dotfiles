@@ -90,12 +90,15 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 
 ## TODO NVIM
-- [ ] remove terminator.
-- [ ] setup original keybinds from old config.
+- [ ] remove terminal.
+- [ ] setup original keybindings from old config.
 - [ ] get rid of these fucking underlines in text.
 - [ ] try to write to python, js and c/c++ to see if the dev envs are actually working properly
 - [ ] disable indent view in markdown files.
-- [ ] Snacks picker thing is located in  `LazyVim/lua/lazyvim/plugins/extras/edietor/snacks_picker` gotta pass a the OPT config with the right layout.
+- [ ] move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
+- [ ] setup default language servers for shit I use.
+- [ ] make `tab` cycle through lsp list.
+
 
 
 ## TODO
