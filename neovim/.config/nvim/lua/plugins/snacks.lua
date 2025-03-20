@@ -9,7 +9,12 @@ return {
     bigfile = { enabled = true },
     dashboard = { enabled = false },
     explorer = { enabled = true },
-    indent = { enabled = true },
+    indent = {
+      enabled = true,
+      animate = {
+        enabled = false,
+      },
+    },
     input = { enabled = true },
     picker = { enabled = true },
     notifier = { enabled = true },
@@ -18,9 +23,9 @@ return {
     scroll = { enabled = false },
     statuscolumn = { enabled = true },
     words = {
-			enabled = true,
-			debounce = 0,
-		},
+      enabled = true,
+      debounce = 0,
+    },
     -- TODO this doenst disable the fucking scratch...
     scratch = { enabled = false },
   },
