@@ -90,16 +90,13 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 
 ## TODO NVIM
+- [ ] disable indent view in markdown files.
 - [ ] remove terminal.
 - [ ] setup original keybindings from old config.
 - [ ] get rid of these fucking underlines in text.
 - [ ] try to write to python, js and c/c++ to see if the dev envs are actually working properly
-- [ ] disable indent view in markdown files.
-- [ ] customize markdownlint.
 - [ ] move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
 - [ ] setup default language servers for shit I use.
-- [ ] Figure out why some lsp commands not work for c/cpp files, such as the shortcut listed below here.
-- [ ] setup shortcut for `:ClangdSwitchSourceHeader`
 - [ ] make `tab` cycle through lsp list.
 
 
