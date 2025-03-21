@@ -98,6 +98,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
 - [ ] setup default language servers for shit I use.
 - [ ] make `tab` cycle through lsp list.
+- [ ] enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
 
 
 
