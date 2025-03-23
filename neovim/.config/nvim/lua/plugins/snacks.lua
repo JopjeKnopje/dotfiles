@@ -7,8 +7,6 @@ return {
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
     scroll = { enabled = false },
-    -- TODO actually disable the fucking scratch...
-    scratch = { enabled = false },
     dashboard = { enabled = false },
     scope = { enabled = true },
     bigfile = { enabled = true },

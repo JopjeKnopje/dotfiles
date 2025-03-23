@@ -6,6 +6,7 @@
 -- DO NOT USE `LazyVim.safe_keymap_set` IN YOUR OWN CONFIG!!
 -- use `vim.keymap.set` instead
 local map = vim.keymap.set
+local unmap = vim.keymap.del
 
 -- better up/down
 map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { desc = "Down", expr = true, silent = true })
@@ -234,3 +235,8 @@ map("n", "Q", "<nop>", { desc = "Disable marco recording" })
 
 -- move to corresponding header
 map("n", "gh", ":ClangdSwitchSourceHeader<cr>", { desc = "Clangd: Switch between source and header" })
+
+-- instead of disabling the snacks.scratch buffer, just disable the keybinds
+unmap("n", "<leader>S")
+unmap("n", "<leader>.")
+unmap("n", "<leader>dps")
