@@ -3,6 +3,10 @@ path = "~/Documents"
 depth = 5
 
 [[search_dirs]]
+path = "~/Documents/transcendence_files"
+depth = 3
+
+[[search_dirs]]
 path = "~/Stuff/Programming"
 depth = 5
 
