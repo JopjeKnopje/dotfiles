@@ -32,7 +32,7 @@ return {
       },
       -- if we're doing markdown disable it.
       filter = function(buf)
-        if vim.bo.filetype == "markdown" then
+        if vim.bo.filetype == "markdown" or "docker" then
           return false
         else
           return vim.g.snacks_indent ~= false and vim.b[buf].snacks_indent ~= false and vim.bo[buf].buftype == ""
