@@ -31,7 +31,7 @@ This will create a symlink from your `$HOME` dir to the content of in this case 
 Uninstalling configs
 ```
 $ cd dotfiles
-$ stow -D neovim 
+$ stow -D neovim
 ```
 
 
@@ -49,7 +49,7 @@ TBA
 TBA
 ## [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
 TBA
-## [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
+# [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
 TBA
 ## [git-fzf](https://github.com/junegunn/fzf-git.sh)
 TBA
@@ -92,15 +92,11 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 
 ## TODO NVIM
-- [ ] disable indent view in markdown files.
-- [ ] remove terminal.
-- [ ] setup original keybindings from old config.
-- [ ] get rid of these fucking underlines in text.
-- [ ] try to write to python, js and c/c++ to see if the dev envs are actually working properly
-- [ ] move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
-- [ ] setup default language servers for shit I use.
-- [ ] make `tab` cycle through lsp list.
-- [ ] enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
+- [ ] Remove terminal.
+- [ ] Try to write to python and JS to see if the dev envs are actually working properly
+- [ ] Move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
+- [ ] Setup default language servers for shit I use.
+- [ ] Enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
 
 
 
