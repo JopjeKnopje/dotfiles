@@ -240,3 +240,12 @@ map("n", "gh", ":ClangdSwitchSourceHeader<cr>", { desc = "Clangd: Switch between
 unmap("n", "<leader>S")
 unmap("n", "<leader>.")
 unmap("n", "<leader>dps")
+
+map("n", "mm", ":Man<CR>")
+
+-- move selection
+map("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selection up" })
+map("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selection down" })
+
+map("n", "n", "nzzzv", { desc = "Auto center when searching" })
+map("n", "N", "Nzzzv", { desc = "Auto center when searching" })
