@@ -6,29 +6,40 @@ return {
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
-    bigfile = { enabled = true },
+    scroll = { enabled = false },
+    -- TODO actually disable the fucking scratch...
+    scratch = { enabled = false },
     dashboard = { enabled = false },
+    scope = { enabled = true },
+    bigfile = { enabled = true },
     explorer = { enabled = true },
+    notifier = { enabled = true },
+    quickfile = { enabled = true },
+    statuscolumn = { enabled = true },
+
+    input = { enabled = true },
+    picker = {
+      enabled = true,
+    },
+
+    words = {
+      enabled = true,
+      debounce = 0,
+    },
+
     indent = {
       enabled = true,
       animate = {
         enabled = false,
       },
+      -- if we're doing markdown disable it.
+      filter = function(buf)
+        if vim.bo.filetype == "markdown" then
+          return false
+        else
+          return vim.g.snacks_indent ~= false and vim.b[buf].snacks_indent ~= false and vim.bo[buf].buftype == ""
+        end
+      end,
     },
-    input = { enabled = true },
-    picker = {
-      enabled = true,
-		},
-		notifier = { enabled = true },
-		quickfile = { enabled = true },
-		scope = { enabled = true },
-		scroll = { enabled = false },
-		statuscolumn = { enabled = true },
-		words = {
-			enabled = true,
-			debounce = 0,
-		},
-		-- TODO this doenst disable the fucking scratch...
-		scratch = { enabled = false },
-	},
+  },
 }

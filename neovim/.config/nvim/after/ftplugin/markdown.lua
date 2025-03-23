@@ -1,5 +1,5 @@
-vim.opt.relativenumber = false
+local opt = vim.opt
 
-
--- This doens't work yet :(
-Snacks.indent.disable()
+opt.relativenumber = false
+opt.tabstop = 4
+opt.shiftwidth = 4
