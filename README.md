@@ -1,6 +1,6 @@
 <div align=center>
 
-# Dotfiles 
+# Dotfiles
 
 Managed using [GNU stow](https://www.gnu.org/software/stow/).
 
