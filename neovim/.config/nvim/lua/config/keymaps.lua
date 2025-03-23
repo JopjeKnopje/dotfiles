@@ -233,8 +233,6 @@ map("n", "q", "<nop>", { desc = "Disable marco recording" })
 map("n", "Q", "<nop>", { desc = "Disable marco recording" })
 
 
--- move to corresponding header
-map("n", "gh", ":ClangdSwitchSourceHeader<cr>", { desc = "Clangd: Switch between source and header" })
 
 -- instead of disabling the snacks.scratch buffer, just disable the keybinds
 unmap("n", "<leader>S")
