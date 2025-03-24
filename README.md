@@ -93,6 +93,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 
 ## TODO NVIM
 - [ ] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
+- [ ] When using obisidan vault use difffent color theme.
 - [ ] Fix nvim surround working.
 - [ ] Customize snacks.dashboard to disable all the shit we don't use.
 - [ ] Remove terminal?
