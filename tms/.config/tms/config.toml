@@ -13,3 +13,7 @@ depth = 5
 [[search_dirs]]
 path = "~/dotfiles"
 depth = 5
+
+[shortcuts]
+# "" = "move_up"
+# "tab" = "move_down"

@@ -101,6 +101,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Setup tmux shortcuts to move back to previous session like `CTRL + o` in vim.
 - [ ] Fix nvim surround working.
 - [ ] Customize snacks.dashboard to disable all the shit we don't use.
+- [ ] Map `tms` to `tab`.
 - [ ] Remove terminal?
 - [ ] Try to write to python and JS to see if the dev envs are actually working properly
 - [ ] Move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
