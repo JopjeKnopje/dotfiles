@@ -7,7 +7,7 @@ return {
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
     scroll = { enabled = false },
-    dashboard = { enabled = false },
+    dashboard = { enabled = true },
     scope = { enabled = true },
     bigfile = { enabled = true },
     explorer = { enabled = true },
