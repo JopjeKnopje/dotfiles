@@ -92,7 +92,10 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 
 ## TODO NVIM
-- [ ] Remove terminal.
+- [ ] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
+- [ ] Fix nvim surround working.
+- [ ] Customize snacks.dashboard to disable all the shit we don't use.
+- [ ] Remove terminal?
 - [ ] Try to write to python and JS to see if the dev envs are actually working properly
 - [ ] Move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
 - [ ] Setup default language servers for shit I use.

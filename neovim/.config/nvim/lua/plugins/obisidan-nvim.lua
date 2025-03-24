@@ -1,4 +1,4 @@
-local vault_path = "~/Documents/obsidian_vault/vault-test/"
+local vault_path = "~/Documents/vault"
 
 return {
   "obsidian-nvim/obsidian.nvim",
