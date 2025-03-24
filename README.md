@@ -96,6 +96,9 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
 - [ ] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
 - [ ] When using obisidan vault use difffent color theme.
+- [ ] Setup tmux shortcut to switch to obisidan session.
+- [ ] Fix `after/ftplugin/terraform.lua` not being honoured.
+- [ ] Setup tmux shortcuts to move back to previous session like `CTRL + o` in vim.
 - [ ] Fix nvim surround working.
 - [ ] Customize snacks.dashboard to disable all the shit we don't use.
 - [ ] Remove terminal?
