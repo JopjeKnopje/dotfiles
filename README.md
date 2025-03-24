@@ -92,6 +92,8 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 
 ## TODO NVIM
+
+- [ ] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
 - [ ] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
 - [ ] When using obisidan vault use difffent color theme.
 - [ ] Fix nvim surround working.
