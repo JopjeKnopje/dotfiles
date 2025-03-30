@@ -48,6 +48,12 @@ TBA
 ## [terminator](https://gnome-terminator.org/)
 TBA
 ## [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
+For image.nvim to work you'll need to install the following packages.
+```
+sudo apt-get install luajit
+sudo apt-get install libmagickwand-dev
+sudo apt-get install libgraphicsmagick1-dev
+```
 TBA
 # [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
 TBA
@@ -124,7 +130,8 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Tmux notification when command is done running (for terraform and the like). 
 - [ ] Add `./local` to this repo.
 - [ ] Installation script which will download all the programs and setup their plugins.
-- [ ] Markdown preview plugin for nvim
+- [x] Markdown preview plugin for nvim
+- [ ] Switch to kitty for so we can skip ueberzug for image previews.
 
 
 <br>
@@ -134,5 +141,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 ### Credits / inspo
 - [brw/dotfiles](https://github.com/brw/dotfiles)
 - [LunarVim/Neovim-from-scratch](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
+
 - [theprimeagen/remap.lua](https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua)
+- [linkarzu - Images Neovim](https://linkarzu.com/posts/neovim/images-neovim/)
 
