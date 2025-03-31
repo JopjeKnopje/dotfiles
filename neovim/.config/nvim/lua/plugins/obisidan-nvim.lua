@@ -35,7 +35,7 @@ return {
 			-- Enables completion using blink.cmp
 			blink = true,
 			-- Trigger completion at 2 chars.
-			min_chars = 2,
+			min_chars = 0,
 		},
 
     -- see below for full list of options 👇
