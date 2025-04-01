@@ -43,13 +43,13 @@ return {
     dependencies = { "luarocks.nvim" },
     config = function()
       require("image").setup({
-        backend = "ueberzug",
-				kitty_method = "normal",
+        backend = "kitty",
+		kitty_method = "normal",
         integrations = {
           -- Notice these are the settings for markdown files
           markdown = {
             enabled = true,
-            clear_in_insert_mode = false,
+            clear_in_insert_mode = true,
             -- Set this to false if you don't want to render images coming from
             -- a URL
             download_remote_images = true,
@@ -57,7 +57,7 @@ return {
             -- cursor is at
             -- I set this to true, because if the file has way too many images
             -- it will be laggy and will take time for the initial load
-            only_render_image_at_cursor = true,
+            only_render_image_at_cursor = false,
             -- markdown extensions (ie. quarto) can go here
             filetypes = { "markdown", "vimwiki" },
           },
