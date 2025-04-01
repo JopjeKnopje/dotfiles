@@ -43,8 +43,9 @@ return {
     dependencies = { "luarocks.nvim" },
     config = function()
       require("image").setup({
-        backend = "kitty",
-		kitty_method = "normal",
+        --   backend = "kitty",
+        backend = "ueberzug",
+        kitty_method = "normal",
         integrations = {
           -- Notice these are the settings for markdown files
           markdown = {
@@ -57,28 +58,19 @@ return {
             -- cursor is at
             -- I set this to true, because if the file has way too many images
             -- it will be laggy and will take time for the initial load
-            only_render_image_at_cursor = false,
+            only_render_image_at_cursor = true,
             -- markdown extensions (ie. quarto) can go here
-            filetypes = { "markdown", "vimwiki" },
-          },
-          neorg = {
-            enabled = true,
-            clear_in_insert_mode = false,
-            download_remote_images = true,
-            only_render_image_at_cursor = false,
-            filetypes = { "norg" },
-          },
-          -- This is disabled by default
-          -- Detect and render images referenced in HTML files
-          -- Make sure you have an html treesitter parser installed
-          -- ~/github/dotfiles-latest/neovim/nvim-lazyvim/lua/plugins/treesitter.lua
-          html = {
-            enabled = false,
+            filetypes = { "markdown" },
+            --resolve_image_path = function(document_path, image_path, fallback)
+              --image_path = "~/Documents/vault" .. image_path
+
+              --return fallback(document_path, image_path)
+            --end,
           },
         },
         max_width = nil,
         max_height = nil,
-        max_width_window_percentage = nil,
+        max_width_window_percentage = 90,
 
         -- This is what I changed to make my images look smaller, like a
         -- thumbnail, the default value is 50
@@ -86,7 +78,7 @@ return {
         max_height_window_percentage = 70,
 
         -- toggles images when windows are overlapped
-        window_overlap_clear_enabled = false,
+        window_overlap_clear_enabled = true,
         window_overlap_clear_ft_ignore = { "cmp_menu", "cmp_docs", "" },
 
         -- auto show/hide images when the editor gains/looses focus
