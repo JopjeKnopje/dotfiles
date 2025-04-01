@@ -113,6 +113,8 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
 - [ ] Setup default language servers for shit I use.
 - [ ] Enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
+- [ ] Toggle images shortcut in markdown.
+- [x] Switch to kitty for better image rendering.
 
 
 
