@@ -10,6 +10,7 @@ alias gc='git commit'
 # Search for file
 alias gsf='git log --all --full-history --stat -- '
 alias gp='git push'
+alias gst='git stash'
 alias gco='git checkout'
 alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'
 alias gla='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all'
