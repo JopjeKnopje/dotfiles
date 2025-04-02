@@ -49,9 +49,7 @@ alias rmi='rm -i'
 # storage
 alias df="df -h"
 alias du="du -h"
-
 alias nf='neofetch'
-
 
 # SSH
 alias sshtoaster='ssh -p 5000 joppe@home.ip'
