@@ -18,6 +18,11 @@ return {
     input = { enabled = true },
     picker = {
       enabled = true,
+      sources = {
+        explorer = {
+          ignored = true,
+        },
+      },
     },
 
     words = {

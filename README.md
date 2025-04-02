@@ -115,6 +115,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
 - [ ] Toggle images shortcut in markdown.
 - [x] Switch to kitty for better image rendering.
+- [ ] Open images in `feh`, also add `~/.config/feh/` with a scroll to zoom bind.
 
 
 
