@@ -3,6 +3,7 @@
 return {
   "HakonHarnes/img-clip.nvim",
   event = "VeryLazy",
+	ft = "markdown",
   opts = {
     -- add options here
     -- or leave it empty to use the default settings
@@ -110,6 +111,6 @@ return {
   keys = {
     -- suggested keymap
     -- { "<leader>v", "<cmd>PasteImage<cr>", desc = "Paste image from system clipboard" },
-    { "<leader>ip", "<cmd>PasteImage<cr>", desc = "Paste image from system clipboard" },
+    -- { "<leader>ip", "<cmd>PasteImage<cr>", desc = "Paste image from system clipboard" },
   },
 }
