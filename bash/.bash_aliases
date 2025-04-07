@@ -70,6 +70,7 @@ alias fnear='~/Scripts/fnear.sh'
 alias fnears='~/Scripts/fnears.sh'
 # run local ssh server by starting/restarting sshd
 alias sshserver='sudo systemctl start sshd && systemctl status sshd && echo "\033[34mPress any key to close (pls dont CTRL+C) \033[0m" && read && sudo systemctl stop sshd && systemctl status sshd'
+alias termbin='nc termbin.com 9999 | xclip'
 
 
 # environment stuff
