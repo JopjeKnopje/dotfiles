@@ -1,7 +1,32 @@
+[user]
+	email = joppe@gozynta.com
+# name =
+# email =
+[core]
+	autocrlf = false
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	staged = diff --cached
+	fpush = push --force-with-lease
+[branch]
+	autosetupmerge = true
+[init]
+	defaultBranch = main
 [push]
-	autoSetupRemote = true
-	autoSetupRemote = true
-	autoSetupRemote = true
-	autoSetupRemote = true
-	autoSetupRemote = true
+	recurseSubmodules = on-demand
 	default = current
+	autoSetupRemote = true
+[submodule]
+	recurse = true
+[pull]
+	rebase = true
+[safe]
+	directory = /etc
+[url "git@github.com:"]
+	insteadOf = https://github.com/
