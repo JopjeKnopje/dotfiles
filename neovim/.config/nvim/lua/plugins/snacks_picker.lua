@@ -25,7 +25,7 @@ local picker = {
         backdrop = false,
         box = "horizontal",
         width = 0.8,
-        min_width = 120,
+        min_width = 150,
         height = 0.8,
         {
           box = "vertical",
@@ -41,7 +41,7 @@ local picker = {
     local layout_small = {
       layout = {
         backdrop = false,
-        width = 0.5,
+        width = 0.8,
         min_width = 80,
         height = 0.8,
         min_height = 30,
