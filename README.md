@@ -144,7 +144,6 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 ### Credits / inspo
 - [brw/dotfiles](https://github.com/brw/dotfiles)
 - [LunarVim/Neovim-from-scratch](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ)
-
 - [theprimeagen/remap.lua](https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua)
 - [linkarzu - Images Neovim](https://linkarzu.com/posts/neovim/images-neovim/)
-
+- [BWindey - dotfiles](https://github.com/BWindey/nvim-config/blob/main/lua/plugins/lsp-config.lua)

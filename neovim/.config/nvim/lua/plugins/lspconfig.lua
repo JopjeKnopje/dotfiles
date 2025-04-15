@@ -1,3 +1,4 @@
+local c3_lsp = require("lspconfig.configs.c3_lsp")
 return {
   {
     "neovim/nvim-lspconfig",
@@ -64,6 +65,33 @@ return {
         -- LSP Server Settings
         ---@type lspconfig.options
         servers = {
+					-- add in c3_lsp stolen from: https://github.com/BWindey/nvim-config/blob/main/lua/plugins/lsp-config.lua
+          c3_lsp = {
+            default_config = {
+              cmd = {
+                os.getenv("HOME") .. "/.local/share/nvim/mason/bin/c3lsp",
+              },
+              filetypes = { "c3", "c3i" },
+              root_dir = function()
+                -- Try project.json
+                local pr_json = vim.fs.root(0, "project.json")
+                if pr_json ~= nil then
+                  return pr_json
+                end
+                -- Try git root
+                local git_root = vim.fs.root(0, ".git")
+                if git_root ~= nil then
+                  return git_root
+                end
+                -- Nothing found, assume standalone C3 file
+                return vim.fn.getcwd()
+              end,
+              settings = {
+                ["diagnostic-delay"] = 50,
+              },
+              name = "c3_lsp",
+            },
+          },
           lua_ls = {
             -- mason = false, -- set to false if you don't want this server to be installed with mason
             -- Use this to add any additional keymaps
@@ -103,6 +131,7 @@ return {
           -- example to setup with typescript.nvim
           -- tsserver = function(_, opts)
           --   require("typescript").setup({ server = opts })
+					--
           --   return true
           -- end,
           -- Specify * to use this function as a fallback for any server
@@ -252,13 +281,5 @@ return {
         end)
       end
     end,
-  },
-
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-      },
-    },
   },
 }
