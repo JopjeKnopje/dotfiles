@@ -21,6 +21,10 @@ return {
   },
   opts = {
     -- Specify how to handle attachments.
+		note_id_func = function(title)
+			return title
+		end,
+
     attachments = {
       -- This is the default
       img_folder = "meta/imgs",
