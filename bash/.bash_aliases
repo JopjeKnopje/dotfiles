@@ -14,7 +14,7 @@ alias gst='git stash'
 alias gco='git checkout'
 alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'
 alias gla='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --all'
-
+alias gdf='git diff --name-only'
 
 alias reload='source ~/.bash_aliases'
 alias aliasg='alias | grep'
