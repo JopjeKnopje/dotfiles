@@ -5,6 +5,7 @@ alias x='exit'
 # Git aliases
 alias ga='git add'
 alias gap='git add --patch'
+alias gopen="xdg-open $(git remote -v | cut -d @ -f 2 | cut -d ' ' -f 1 | head -1 | sed 's/:/\//' | sed 's/.git$//' | sed s'/^/https:\/\//') >& /dev/null &"
 alias gs='git status'
 alias gc='git commit'
 # Search for file
