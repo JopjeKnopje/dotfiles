@@ -92,6 +92,12 @@ return {
               name = "c3_lsp",
             },
           },
+					clangd = {
+						cmd = {
+							"/home/joppe/.local/share/nvim/mason/bin/clangd",
+							"--query-driver=/usr/bin/arm-none-eabi-g*",
+						},
+					},
           lua_ls = {
             -- mason = false, -- set to false if you don't want this server to be installed with mason
             -- Use this to add any additional keymaps
@@ -131,7 +137,6 @@ return {
           -- example to setup with typescript.nvim
           -- tsserver = function(_, opts)
           --   require("typescript").setup({ server = opts })
-					--
           --   return true
           -- end,
           -- Specify * to use this function as a fallback for any server
