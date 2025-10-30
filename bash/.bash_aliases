@@ -5,7 +5,6 @@ alias x='exit'
 # Git aliases
 alias ga='git add'
 alias gap='git add --patch'
-alias gopen="xdg-open $(git remote -v | cut -d @ -f 2 | cut -d ' ' -f 1 | head -1 | sed 's/:/\//' | sed 's/.git$//' | sed s'/^/https:\/\//') >& /dev/null &"
 alias gs='git status'
 alias gc='git commit'
 # Search for file
@@ -59,6 +58,7 @@ alias sshvm='ssh -p 4242 jboeve@127.0.0.1'
 
 # Programs
 alias v='vim'
+alias lg='lazygit'
 alias r='ranger'
 alias xclip='xclip -selection c'
 alias esptool='python3 -m esptool'
