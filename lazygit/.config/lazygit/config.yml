@@ -9,3 +9,11 @@ quitOnTopLevelReturn: true
 keybinding:
   universal:
     quit: <esc>
+
+
+customCommands:
+  - key: 'E'
+    description: 'Add empty commit'
+    context: 'commits'
+    command: 'git commit --allow-empty -m "empty commit"'
+    loadingText: 'Committing empty commit...'
