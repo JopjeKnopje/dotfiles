@@ -77,7 +77,6 @@ alias hgs="history | tail -n 500 | awk '{\$1=\"\"; print \$0};' | awk '{\$1=\$1}
 # environment stuff
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias get_pio='export PATH=$HOME/.platformio/penv/bin:$PATH'
-alias get_go='export PATH=$PATH:/usr/local/go/bin'
 function get_node()
 {
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

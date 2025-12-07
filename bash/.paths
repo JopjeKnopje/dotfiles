@@ -20,5 +20,6 @@ export PATH="$HOME/home/jboeve/.dotnet/tools:$PATH"
 export PATH="$HOME/Programs/idea-IU-232.9559.62/bin:$PATH"
 export PATH="$HOME/Programs/idea-IU-232.9559.62/bin:$PATH"
 export PATH="/usr/local/go/bin:$PATH:"
+export PATH="$HOME/go/bin:$PATH:"
 
 
