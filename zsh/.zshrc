@@ -74,6 +74,13 @@ setopt SHARE_HISTORY             # Share history between all sessions.
 autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey '^x^e' edit-command-line
+
+
+# expand history commands (such as `!!`) when pressing space
+bindkey ' ' magic-space
+
+
+
 if [ -x /usr/bin/dircolors ]; then
 	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 	alias ls='ls --color=auto'
