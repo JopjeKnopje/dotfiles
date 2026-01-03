@@ -61,6 +61,8 @@ TBA
 TBA
 ## [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 TBA
+## [jless](https://github.com/PaulJuliusMartinez/jless)
+TBA
 ## [ranger](https://github.com/ranger/ranger)
 TBA
 ## [grc](https://github.com/garabik/grc)
