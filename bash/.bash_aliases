@@ -60,7 +60,8 @@ alias sshvm='ssh -p 4242 jboeve@127.0.0.1'
 alias v='vim'
 alias lg='lazygit'
 alias r='ranger'
-alias xclip='xclip -selection c'
+alias xclip='xclip -selection clipboard'
+alias xclipp='xclip -o -selection clipboard'
 alias esptool='python3 -m esptool'
 
 
