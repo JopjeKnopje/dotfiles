@@ -1,9 +1,11 @@
 [user]
-	email = joppe@gozynta.com
-# name =
-# email =
+	name = joppe
+	email = jboeve009@gmail.com
 [core]
 	autocrlf = false
+	pager = less -F -S -R -i -+X
+[pager]
+	diff = less +/diff\\ --git
 [color]
 	status = auto
 	diff = auto
@@ -14,6 +16,8 @@
 	co = checkout
 	staged = diff --cached
 	fpush = push --force-with-lease
+  	open = "!f() { REPO_URL=$(git config remote.origin.url); xdg-open ${REPO_URL%%.git}; }; f"
+  	browse = !git open
 [branch]
 	autosetupmerge = true
 [init]
