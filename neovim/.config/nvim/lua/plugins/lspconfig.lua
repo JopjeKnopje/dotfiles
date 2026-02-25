@@ -94,7 +94,8 @@ return {
           },
 					clangd = {
 						cmd = {
-							"/home/joppe/.local/share/nvim/mason/bin/clangd",
+							-- TODO: Fix home path
+							"/home/jopjeknopje/.local/share/nvim/mason/bin/clangd",
 							"--query-driver=/usr/bin/arm-none-eabi-g*",
 						},
 					},
