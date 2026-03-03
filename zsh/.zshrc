@@ -154,6 +154,23 @@ then
 fi
 
 
+
+
+if [ -x "$(command -v gardenctl)"  ]
+then
+	source <(gardenctl completion zsh)
+
+
+	[ -n "$GCTL_SESSION_ID" ] || [ -n "$TERM_SESSION_ID" ] || export GCTL_SESSION_ID=$(uuidgen)
+
+	if [ -z "$GCTL_SESSION_ID" ] && [ -z "$TERM_SESSION_ID" ]; then
+	  export GCTL_SESSION_ID=$(uuidgen)
+	fi
+
+	eval $(gardenctl kubectl-env zsh)
+fi
+
+
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 else
