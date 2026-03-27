@@ -106,6 +106,7 @@ alias k9s='TERM=xterm-256color k9s'
 # alias dotfiles='tmux new-window -n dotfiles -c ~/dotfiles/ "nvim -S; `which $SHELL`"'
 
 
+alias scopescreen='~/dotfiles/scripts/Scripts/scope-screen.sh'
 # tempdir
 alias tmp='cd $(mktemp -d)'
 
