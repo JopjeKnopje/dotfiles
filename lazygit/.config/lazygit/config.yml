@@ -1,4 +1,7 @@
 git:
+  pagers:
+    - pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
+      colorArg: never
   autoFetch: false
 # If true, show a confirmation popup before quitting Lazygit
 confirmOnQuit: true

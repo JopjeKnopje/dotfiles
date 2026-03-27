@@ -132,3 +132,5 @@ vim.g.markdown_recommended_style = 0
 -- Set markdown preview theme to darkmode
 vim.g.mkdp_theme = 'dark'
 vim.g.root_spec = { "cwd" }
+
+vim.g.VimuxHeight = 30
