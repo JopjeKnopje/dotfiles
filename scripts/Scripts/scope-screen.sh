@@ -36,9 +36,16 @@ if [ "$1" = "gif" ]; then
 	echo -e "\n"
 	xclip -selection clipboard -t image/png -i ${FILE_PATH}
 
+
 else
 	echo ":DISPLAY:DATA? ON,OFF,PNG" | nc -w1 ${IP} 5555 | dd bs=1 skip=11 of="${FILE_PATH}"
-	xclip -selection clipboard -t image/png -i ${FILE_PATH}
+	if [ "$1" = "feh" ]; then
+		feh ${FILE_PATH}
+		exit
+	else
+		xclip -selection clipboard -t image/png -i ${FILE_PATH}
+	fi
+
 fi
 
 echo "Save the screenshot/GIF in $PWD? Y/n"
