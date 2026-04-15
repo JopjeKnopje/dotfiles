@@ -50,6 +50,7 @@ alias rmi='rm -i'
 alias df="df -h"
 alias du="du -h"
 alias nf='neofetch'
+alias of='onefetch --nerd-fonts'
 
 # SSH
 alias sshtoaster='ssh -p 5000 joppe@home.ip'
