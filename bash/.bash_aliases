@@ -161,9 +161,9 @@ if [ -f $HOME/.bash_codam ]; then
 fi
 
 if [ $(hostname) = "gamelan5" ]; then
-	if [ -f $HOME/.bash_aliases_gamelan5 ]; then
-		source $HOME/.bash_aliases_gamelan5
+	if [ -f $HOME/.bash_config_gamelan5 ]; then
+		source $HOME/.bash_config_gamelan5
 	else
-		source $HOME/dotfiles/bash/.bash_aliases_gamelan5
+		source $HOME/dotfiles/bash/.bash_config_gamelan5
 	fi
 fi;
