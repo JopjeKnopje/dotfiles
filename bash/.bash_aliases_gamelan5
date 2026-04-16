@@ -1,0 +1,3 @@
+
+
+alias get_garden="source merge-kube.sh gardenctl target --garden leafcloud-dev --project kosyjul2uk --shoot dev"

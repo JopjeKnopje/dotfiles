@@ -160,4 +160,9 @@ export NAME="jboeve"
 
 source ~/.bash_aliases
 
+if [ "$(hostname)" = "gamelan5" ]; then
+	source ~/.bash_aliases_gamelan
+fi
+
+
 
