@@ -1,3 +1,6 @@
 
 
 alias get_garden="source merge-kube.sh gardenctl target --garden leafcloud-dev --project kosyjul2uk --shoot dev"
+
+# Add to your .bashrc or .zshrc:
+eval "$(kubesess init zsh)"   # for zsh
