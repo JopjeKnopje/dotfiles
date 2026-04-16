@@ -239,6 +239,8 @@ map("n", "q", "<nop>", { desc = "Disable marco recording" })
 map("n", "Q", "<nop>", { desc = "Disable marco recording" })
 
 
+map("n", "@+", ':let @+ = expand("%:p")<cr>', { desc = "Disable marco recording" })
+
 
 -- instead of disabling the snacks.scratch buffer, just disable the keybinds
 unmap("n", "<leader>S")
