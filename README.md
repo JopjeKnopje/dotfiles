@@ -45,6 +45,9 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 ## Content
 ## [zsh](https://www.zsh.org/)
 TBA
+## [lazygit](https://github.com/jesseduffield/lazygit/releases)
+Delta pager
+
 ## [terminator](https://gnome-terminator.org/)
 TBA
 ## [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
