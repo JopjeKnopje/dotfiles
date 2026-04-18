@@ -92,13 +92,8 @@ return {
               name = "c3_lsp",
             },
           },
-					clangd = {
-						cmd = {
-							-- TODO: Fix home path
-							"/home/jopjeknopje/.local/share/nvim/mason/bin/clangd",
-							"--query-driver=/usr/bin/arm-none-eabi-g*",
-						},
-					},
+					clangd = require("esp32").lsp_config(),
+					-- clangd = require("lspconfig").clangd.setup{},
           lua_ls = {
             -- mason = false, -- set to false if you don't want this server to be installed with mason
             -- Use this to add any additional keymaps
