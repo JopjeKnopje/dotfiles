@@ -1,0 +1,12 @@
+k9s:
+  ui:
+    enableMouse: true
+    headless: false
+    logoless: true
+    crumbsless: false
+    splashless: true
+    reactive: false
+    noIcons: false
+    invert: false
+    defaultsToFullScreen: false
+    useFullGVRTitle: false
