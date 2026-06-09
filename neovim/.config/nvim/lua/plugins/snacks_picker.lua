@@ -113,6 +113,10 @@ return {
       { "<leader>fr", LazyVim.pick("oldfiles"), desc = "Recent" },
       { "<leader>fR", function() Snacks.picker.recent({ filter = { cwd = true }}) end, desc = "Recent (cwd)" },
       { "<leader>fp", function() Snacks.picker.projects() end, desc = "Projects" },
+
+      { "<leader>fo", function() Snacks.picker.files({cwd = vim.env.OBSIDIAN_VAULT_PATH}) end, desc = "Obsidian vault files" },
+      { "<leader>fO", function() Snacks.picker.grep({cwd = "~/Documents/vault/"}) end, desc = "Obsidian vault files" },
+
       -- git
       { "<leader>gd", function() Snacks.picker.git_diff() end, desc = "Git Diff (hunks)" },
       { "<leader>gs", function() Snacks.picker.git_status() end, desc = "Git Status" },

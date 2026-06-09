@@ -174,6 +174,7 @@ fi
 
 
 
+export OBSIDIAN_VAULT_PATH=~/Documents/vault/
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 else
