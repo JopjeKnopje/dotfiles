@@ -122,6 +122,9 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 ### i3
 - [ ] Taskbar on primary display
 - [ ] Setup polybar
+- [ ] Lock certain workspaces to second monitor (if we are running a second monitor setup, look into `include` keyword for i3, you can also do command substitution)
+- [ ] Screen timeout thingy
+- [ ] Keep split window open without filling screen (yeah I know...)
 - [ ] Move to newer non-apt-installed version of rofi
 - [ ] CAPSLOCK remap for laptop and other non keychron keyboards
 - [ ] Fix `XF86AudioNext` and `XF86AudioPrev` not working with spotify (and probably other apps as well).
