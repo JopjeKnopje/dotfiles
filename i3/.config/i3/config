@@ -36,7 +36,7 @@ exec --no-startup-id nm-applet
 
 # initilze display profile based on hostname of machine
 exec_always --no-startup-id ~/.config/i3/init-displays.sh
-
+exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
