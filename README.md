@@ -45,6 +45,12 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 
 ## Content
 ## [i3](https://i3wm.org/)
+### Installation
+THIS is not complete
+```bash
+sudo apt-get install libnotify-bin notify-osd
+```
+
 ### Monitor setup
 The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
 
@@ -117,7 +123,8 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Taskbar on primary display
 - [ ] Setup polybar
 - [ ] CAPSLOCK remap for laptop and other non keychron keyboards
-- [ ]Screenshotter (scrot?)
+- [ ] Fix `XF86AudioNext` and `XF86AudioPrev` not working with spotify (and probably other apps as well).
+- [ ] Setup proper screenshotter [maim](https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f) script, which maybe also sends a notification?
 
 ### Neovim
 - [x] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
