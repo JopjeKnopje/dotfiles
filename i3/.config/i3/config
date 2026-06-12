@@ -39,6 +39,7 @@ exec_always --no-startup-id ~/.config/i3/init-displays.sh
 exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
 
 # from https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f
+
 # Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date).png"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).png"
@@ -58,6 +59,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# hotkey for common programs
+bindsym $mod+f exec nemo
+bindsym $mod+b exec firefox
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
@@ -108,7 +113,8 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+f fullscreen toggle
+
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
