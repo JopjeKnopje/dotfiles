@@ -122,9 +122,10 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 ### i3
 - [ ] Taskbar on primary display
 - [ ] Setup polybar
+- [ ] rofi
 - [ ] CAPSLOCK remap for laptop and other non keychron keyboards
 - [ ] Fix `XF86AudioNext` and `XF86AudioPrev` not working with spotify (and probably other apps as well).
-- [ ] Setup proper screenshotter [maim](https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f) script, which maybe also sends a notification?
+- [ ] Setup proper screenshotter [maim](https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f) script. It should save the screenshot _AND_ copy to clipboard, also send a notification?
 
 ### Neovim
 - [x] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
