@@ -6,6 +6,7 @@ Managed using [GNU stow](https://www.gnu.org/software/stow/).
 
 </div>
 
+
 ## Installation
 
 ```
@@ -46,8 +47,6 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 ## [i3](https://i3wm.org/)
 ### Monitor setup
 The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
-> [!tip]
-> If you want to disable a monitor, just remove it from the generated config script, arandr doesn't support that weirdly enough.
 
 
 
@@ -110,12 +109,21 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 
 <br>
 
-## TODO NVIM
 
-- [ ] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
-- [ ] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
+
+
+## TODO
+### i3
+- [ ] Taskbar on primary display
+- [ ] Setup polybar
+- [ ] CAPSLOCK remap for laptop and other non keychron keyboards
+- [ ]Screenshotter (scrot?)
+
+### Neovim
+- [x] Make obisidan_vault a env variable, so other TMUX and tms can also source it.
+- [x] Setup path for obisidan vault, which will silently fail if it doens't exist instead of this "hard" error.
 - [ ] When using obisidan vault use difffent color theme.
-- [ ] Setup tmux shortcut to switch to obisidan session.
+- [ ] ~Setup tmux shortcut to switch to obisidan session.~
 - [ ] Fix `after/ftplugin/terraform.lua` not being honoured.
 - [ ] Setup tmux shortcuts to move back to previous session like `CTRL + o` in vim.
 - [ ] Fix nvim surround working.
@@ -131,8 +139,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Open images in `feh`, also add `~/.config/feh/` with a scroll to zoom bind.
 
 
-
-## TODO
+### Other
 - [ ] Add dynamic config that loads shit depending on the system its on, for example work laptop or codam pc.
 - [ ] Setup tmux mouse copy.
 - [ ] When running the `dotfiles` command tell nvim's `ctrl-f` to also search for hidden files.
