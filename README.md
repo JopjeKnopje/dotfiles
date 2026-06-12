@@ -43,6 +43,14 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 
 
 ## Content
+## [i3](https://i3wm.org/)
+### Monitor setup
+The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
+> [!tip]
+> If you want to disable a monitor, just remove it from the generated config script, arandr doesn't support that weirdly enough.
+
+
+
 ## [zsh](https://www.zsh.org/)
 TBA
 ## [lazygit](https://github.com/jesseduffield/lazygit/releases)
