@@ -46,9 +46,9 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 ## Content
 ## [i3](https://i3wm.org/)
 ### Installation
-THIS is not complete
+
 ```bash
-sudo apt-get install libnotify-bin notify-osd
+sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance
 ```
 
 ### Monitor setup
