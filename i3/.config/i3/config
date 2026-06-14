@@ -35,7 +35,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # initilze display profile based on hostname of machine
-exec_always --no-startup-id ~/.config/i3/init-displays.sh
 exec_always --no-startup-id ~/.config/i3/init-setting.sh display
 exec_always --no-startup-id ~/.config/i3/init-setting.sh background
 
