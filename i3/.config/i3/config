@@ -39,6 +39,9 @@ exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
 exec_always --no-startup-id ~/.config/i3/init-setting.sh display
 exec_always --no-startup-id ~/.config/i3/init-setting.sh background
 
+exec killall -q notifiy-osd
+exec --no-startup-id dunst
+
 # compositor
 exec --no-startup-id picom
 
