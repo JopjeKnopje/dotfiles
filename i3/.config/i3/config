@@ -34,10 +34,14 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# initilze display profile based on hostname of machine
+# setup and run scripts
+set $media_command ~/.config/i3/media-command.sh
 exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
+
+# setup settings for this machine
 exec_always --no-startup-id ~/.config/i3/init-setting.sh display
 exec_always --no-startup-id ~/.config/i3/init-setting.sh background
+
 
 exec killall -q notifiy-osd
 exec --no-startup-id dunst
@@ -58,11 +62,11 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86AudioNext exec playerctl next
-bindsym Ctrl+XF86AudioPrev exec playerctl position 5-
-bindsym Ctrl+XF86AudioNext exec playerctl position 5+
-bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPrev exec $media_command previous
+bindsym XF86AudioNext exec $media_command next
+bindsym Ctrl+XF86AudioPrev exec $media_command position 5-
+bindsym Ctrl+XF86AudioNext exec $media_command position 5+
+bindsym XF86AudioPlay exec $media_command play-pause
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
@@ -72,7 +76,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # hotkey for common programs
-bindsym $mod+f  exec nemo
+bindsym $mod+f floating enable, exec nemo
 bindsym $mod+b exec firefox
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
