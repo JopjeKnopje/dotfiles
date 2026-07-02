@@ -9,7 +9,9 @@ DISPLAY_DIR="${SCRIPT_DIR}/display"
 # if we pass args
 if [ $# -gt 0 ]
   then
-	bash "${DISPLAY_DIR}/$1.sh"
+	# set the active display layout, the i3 config file will load this upon reload
+	ln -fs "${DISPLAY_DIR}/$1.sh" "${DISPLAY_DIR}/active"
+	i3-msg restart
 	exit $?
 fi
 
