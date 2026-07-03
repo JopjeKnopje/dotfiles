@@ -38,9 +38,9 @@ exec --no-startup-id nm-applet
 set $media_command ~/.config/i3/media-command.sh
 exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
 
+# setup settings for this machine
 # Grab the active set display, this is the one thats set with the display-switcher.sh script
 exec_always --no-startup-id ~/.config/i3/display/active
-# setup settings for this machine
 exec_always --no-startup-id ~/.config/i3/init-setting.sh background
 exec_always --no-startup-id ~/.config/i3/init-setting.sh dark-mode
 
