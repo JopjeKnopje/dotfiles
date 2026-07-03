@@ -120,8 +120,9 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 
 ## TODO
 ### i3
-- [ ] Taskbar on primary display
+- [x] Taskbar on primary display
 - [ ] Setup polybar
+- [ ] Script to check if monitors are connected, if we cannot find any just use the default one (which is not built in)
 - [ ] Lock certain workspaces to second monitor (if we are running a second monitor setup, look into `include` keyword for i3, you can also do command substitution)
 - [ ] Screen timeout thingy
 - [ ] Keep split window open without filling screen (yeah I know...)
