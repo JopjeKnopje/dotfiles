@@ -44,7 +44,7 @@ exec_always --no-startup-id ~/.config/i3/display/active
 exec_always --no-startup-id ~/.config/i3/init-setting.sh background
 exec_always --no-startup-id ~/.config/i3/init-setting.sh dark-mode
 
-bindsym $mod+F12 exec --no-startup-id rofi -show ws -modes "ws:~/.config/i3/display-switcher.sh"
+bindsym $mod+F12 exec --no-startup-id rofi -show ws -modi ws:"~/.config/i3/display-switcher.sh"
 
 exec killall -q notifiy-osd
 exec --no-startup-id dunst
