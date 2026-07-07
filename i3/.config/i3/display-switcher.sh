@@ -15,7 +15,7 @@ if [ $# -gt 0 ]
 	exit $?
 fi
 
-for f in "${DISPLAY_DIR}"/*
+for f in "${DISPLAY_DIR}"/*.sh
 do
 	s=${f##*/}
 	echo "${s%.*}"
