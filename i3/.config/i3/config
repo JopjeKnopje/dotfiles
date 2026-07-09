@@ -40,8 +40,7 @@ exec_always --no-startup-id ~/.config/i3/disable-mouse-accel.sh
 
 # setup settings for this machine
 # Grab the active set display, this is the one thats set with the display-switcher.sh script
-exec_always --no-startup-id ~/.config/i3/display/active
-exec_always --no-startup-id ~/.config/i3/init-setting.sh background
+exec_always --no-startup-id ~/.config/i3/display/init.sh
 exec_always --no-startup-id ~/.config/i3/init-setting.sh dark-mode
 
 bindsym $mod+F12 exec --no-startup-id rofi -show ws -modi ws:"~/.config/i3/display-switcher.sh"
