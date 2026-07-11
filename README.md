@@ -48,6 +48,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ### Monitor setup
 The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
 
+### Fix Yubikey
+```bash
+apti gnupg gpg gpg-agent dirmngr pcscd opensc scdaemon
+```
+
 
 ### Stuff I use
 - [i3](https://i3wm.org/)
