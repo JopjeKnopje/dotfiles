@@ -34,12 +34,9 @@ Font installation
 ```
 
 Install p10k and setup zsh
-
 ```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-chsh -s $(which zsh)
+./install-scripts/setup-zsh.sh
 ```
-
 
 Setup tmux's plugin manager (tpm)
 
