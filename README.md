@@ -33,6 +33,12 @@ sudo apt-get install terminator tmux zsh
 
 
 
+Install p10k
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+```
+
 
 ### Installation
 
