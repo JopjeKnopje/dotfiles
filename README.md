@@ -25,7 +25,15 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 
 
 ## Content
-## [i3](https://i3wm.org/)
+```bash
+sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
+
+sudo apt-get terminator tmux zsh
+```
+
+
+
+
 ### Installation
 
 ```bash
@@ -36,33 +44,19 @@ sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr 
 The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
 
 
-
-## [zsh](https://www.zsh.org/)
-TBA
-## [lazygit](https://github.com/jesseduffield/lazygit/releases)
+### Stuff I use
+- [i3](https://i3wm.org/)
+- [lazygit](https://github.com/jesseduffield/lazygit/releases)
 Delta pager
+- [terminator](https://gnome-terminator.org/)
+- [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
+- [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
+- [git-fzf](https://github.com/junegunn/fzf-git.sh)
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+-  [jless](https://github.com/PaulJuliusMartinez/jless)
+-  [grc](https://github.com/garabik/grc)
+- [tmux](https://github.com/tmux/tmux)
 
-## [terminator](https://gnome-terminator.org/)
-TBA
-## [neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4)
-For image.nvim to work you'll need to install the following packages.
-```
-sudo apt-get install luajit
-sudo apt-get install libmagickwand-dev
-sudo apt-get install libgraphicsmagick1-dev
-```
-TBA
-# [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
-TBA
-## [git-fzf](https://github.com/junegunn/fzf-git.sh)
-TBA
-## [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-TBA
-## [jless](https://github.com/PaulJuliusMartinez/jless)
-TBA
-## [grc](https://github.com/garabik/grc)
-TBA
-## [tmux](https://github.com/tmux/tmux)
 here is a handy [tmux cheatsheet](https://tmuxcheatsheet.com/) for learning some keybinds.
 If you want to use the plugins specified in the `tmux.conf`, you'd need to install [tpm](https://github.com/tmux-plugins/tpm)
 ```
