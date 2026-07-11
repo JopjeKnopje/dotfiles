@@ -29,7 +29,7 @@
     ~/.Xresources: X11/.Xresources
     ~/:
       glob: true
-      path: git/*
+      path: git/.*
     ~/:
       relink: True
       glob: true
