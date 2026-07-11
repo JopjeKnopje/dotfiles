@@ -31,6 +31,7 @@
       glob: true
       path: git/*
     ~/:
+      relink: True
       glob: true
       path: zsh/*
       path: zsh/.*
