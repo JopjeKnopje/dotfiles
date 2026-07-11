@@ -21,6 +21,7 @@
     ~/.config/terminator: terminator
     ~/.config/tms: tms
     ~/scripts: scripts
+    ~/.Xresources: X11/.Xresources
     ~/:
       glob: true
       path: git/*
