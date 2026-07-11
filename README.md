@@ -51,6 +51,7 @@ The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.s
 ### Fix Yubikey
 ```bash
 apti gnupg gpg gpg-agent dirmngr pcscd opensc scdaemon
+sudo apt install -y pcscd pcsc-tools opensc libccid libpcsclite1
 ```
 
 
