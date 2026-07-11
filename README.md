@@ -6,41 +6,32 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 
 </div>
 
+TBA talk about stuff I'm using
 
 ## Installation
+
+Clone the repo
 
 ```
 $ git clone git@github.com:JopjeKnopje/dotfiles.git
 ```
 
-
-
-
-
-### Font installation
-
-Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip) and use the UI to install them instead of copying them manually to `~/.local/share/fonts` (for some reason this doens't work for me).
-
-<br>
-
-
-## Content
 ### Manual steps
+Install tools and deps
 
-Install the fonts
+```bash
+# i3 stuff (you could skip this if you don't want to use i3)
+sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
+
+sudo apt-get install terminator tmux zsh curl
+```
+
+
+Font installation
 
 ```bash
 ./install-scripts/fonts.sh
 ```
-
-
-
-```bash
-sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
-
-sudo apt-get install terminator tmux zsh
-```
-
 
 Install p10k and setup zsh
 
@@ -50,17 +41,12 @@ chsh -s $(which zsh)
 ```
 
 
-Setup tmux
+Setup tmux's plugin manager (tpm)
 
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-### Installation
-
-```bash
-sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
-```
 
 ### Monitor setup
 The monitor configs are saved in `~/dotfiles/i3/.config/i3/displays/<HOSTNAME>.sh`. You can generate a new config script using `arandr` and saving the output file to that location.
