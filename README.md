@@ -25,6 +25,16 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 
 
 ## Content
+### Manual steps
+
+Install the fonts
+
+```bash
+./install-scripts/fonts.sh
+```
+
+
+
 ```bash
 sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
 
@@ -32,13 +42,19 @@ sudo apt-get install terminator tmux zsh
 ```
 
 
-
-Install p10k
+Install p10k and setup zsh
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+chsh -s $(which zsh)
 ```
 
+
+Setup tmux
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ### Installation
 
