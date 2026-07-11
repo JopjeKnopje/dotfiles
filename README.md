@@ -23,7 +23,7 @@ Install tools and deps
 # i3 stuff (you could skip this if you don't want to use i3)
 sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
 
-sudo apt-get install terminator tmux zsh curl
+sudo apt-get install terminator tmux zsh curl xclip
 ```
 
 
