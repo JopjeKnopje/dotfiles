@@ -1,0 +1,33 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/:
+      path: bash/.*
+      glob: true
+    ~/.local/bin:
+      path: bin/*
+      glob: true
+    ~/.config/i3: i3
+    ~/.config/k9s/:
+      glob: true
+      path: k9s/*
+    ~/.config/lazygit: lazygit
+    ~/.config/nvim: nvim
+    ~/.config/rofi: rofi
+    ~/.config/terminator: terminator
+    ~/.config/tms: tms
+    ~/scripts: scripts
+    ~/:
+      glob: true
+      path: git/*
+    ~/:
+      glob: true
+      path: zsh/*
+
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

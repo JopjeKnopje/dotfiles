@@ -9,5 +9,5 @@ if [ -z "$1" ]; then
 fi
 
 
-ls -lrhS  $(~/Scripts/fnear.sh $1 $2) | awk '{print $5, $9}' | column -tc2
+ls -lrhS  $(~/scripts/fnear.sh $1 $2) | awk '{print $5, $9}' | column -tc2
 
