@@ -4,6 +4,7 @@
 
 - create:
     - ~/.local/bin/
+    - ~/.config/k9s/
 
 - clean: ['~']
 
@@ -32,6 +33,7 @@
     ~/:
       glob: true
       path: zsh/*
+      path: zsh/.*
 
 
 - shell:

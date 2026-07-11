@@ -28,7 +28,7 @@ Download the Hack nerdfont from [here](https://github.com/ryanoasis/nerd-fonts/r
 ```bash
 sudo apt-get install i3 rofi libnotify-bin notify-osd picom xdotool maim arandr lxappearance dunst playerctl
 
-sudo apt-get terminator tmux zsh
+sudo apt-get install terminator tmux zsh
 ```
 
 
