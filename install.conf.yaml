@@ -27,9 +27,7 @@
     ~/.config/tmux: tmux
     ~/scripts: scripts
     ~/.Xresources: X11/.Xresources
-    ~/:
-      glob: true
-      path: git/.*
+    ~/.gitconfig: git/.gitconfig
     ~/:
       relink: True
       glob: true
