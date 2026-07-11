@@ -2,7 +2,7 @@
 
 # Dotfiles
 
-Managed using [GNU stow](https://www.gnu.org/software/stow/).
+Managed using [dotbot](https://github.com/anishathalye/dotbot).
 
 </div>
 
@@ -13,27 +13,8 @@ Managed using [GNU stow](https://www.gnu.org/software/stow/).
 $ git clone git@github.com:JopjeKnopje/dotfiles.git
 ```
 
-To install the binaries to `~/.local/bin` run.
-```
-bash bin/install.sh
-```
 
 
-
-
-To install the files simply symlink them using stow
-```
-$ cd dotfiles
-$ stow neovim
-```
-This will create a symlink from your `$HOME` dir to the content of in this case the `neovim` directory.
-
-
-Uninstalling configs
-```
-$ cd dotfiles
-$ stow -D neovim
-```
 
 
 ### Font installation
@@ -78,8 +59,6 @@ TBA
 ## [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 TBA
 ## [jless](https://github.com/PaulJuliusMartinez/jless)
-TBA
-## [ranger](https://github.com/ranger/ranger)
 TBA
 ## [grc](https://github.com/garabik/grc)
 TBA
