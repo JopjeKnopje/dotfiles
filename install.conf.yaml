@@ -2,6 +2,9 @@
     link:
       relink: true
 
+- create:
+    - ~/.local/bin/
+
 - clean: ['~']
 
 - link:
