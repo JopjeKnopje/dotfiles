@@ -27,9 +27,12 @@
     ~/.config/tmux: tmux
     ~/scripts: scripts
     ~/.Xresources: X11/.Xresources
-    ~/.gitconfig: git/.gitconfig
+    ~/.gitconfig:
+      if: '[ `hostname` != gamelan5]'
+      path: git/.gitconfig
+      relink: true
     ~/:
-      relink: True
+      relink: true
       glob: true
       path: zsh/*
       path: zsh/.*
