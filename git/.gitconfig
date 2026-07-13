@@ -1,6 +1,6 @@
 [user]
 	name = joppe
-	email = jboeve009@gmail.com
+	email = jopjeknopje@proton.me
 [core]
 	autocrlf = false
 	pager = less -F -S -R -i -+X
