@@ -136,6 +136,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 
 
 ### Other
+- [ ] gitconfigs with `includeIf` for work setup https://stackoverflow.com/a/43654115/7363348
 - [ ] Add dynamic config that loads shit depending on the system its on, for example work laptop or codam pc.
 - [ ] Setup tmux mouse copy.
 - [ ] When running the `dotfiles` command tell nvim's `ctrl-f` to also search for hidden files.
