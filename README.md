@@ -6,7 +6,6 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 
 </div>
 
-TBA talk about stuff I'm using
 
 ## Installation
 
@@ -164,3 +163,5 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [theprimeagen/remap.lua](https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua)
 - [linkarzu - Images Neovim](https://linkarzu.com/posts/neovim/images-neovim/)
 - [BWindey - dotfiles](https://github.com/BWindey/nvim-config/blob/main/lua/plugins/lsp-config.lua)
+- [oneshot systemd service](https://gist.github.com/drmalex07/d006f12914b21198ee43)
+- [Proper(-ish) way to start long-running systemd service on udev event (device hotplug)](https://blog.fraggod.net/2012/06/16/proper-ish-way-to-start-long-running-systemd-service-on-udev-event-device-hotplug.html)

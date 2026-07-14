@@ -1,6 +1,7 @@
 [user]
 	name = joppe
 	email = jopjeknopje@proton.me
+	signingkey = 1E797962E571F07CEC19A0A7E5932D1B6DE0A3E2
 [core]
 	autocrlf = false
 	pager = less -F -S -R -i -+X
@@ -32,3 +33,5 @@
 	rebase = true
 [safe]
 	directory = /etc
+[commit]
+	gpgsign = true

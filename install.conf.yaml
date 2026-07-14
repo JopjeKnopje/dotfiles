@@ -24,6 +24,7 @@
     ~/.config/rofi: rofi
     ~/.config/terminator: terminator
     ~/.config/tms: tms
+    ~/.config/systemd: systemd
     ~/.config/tmux: tmux
     ~/scripts: scripts
     ~/.Xresources: X11/.Xresources
