@@ -66,11 +66,8 @@ alias xclipp='xclip -o -selection clipboard'
 alias esptool='python3 -m esptool'
 
 
-# Scripts
-alias fixjtag='~/Scripts/fixjtag.sh'
+# scripts
 alias webserver='python3 -m http.server'
-alias fnear='~/Scripts/fnear.sh'
-alias fnears='~/Scripts/fnears.sh'
 # run local ssh server by starting/restarting sshd
 alias sshserver='sudo systemctl start sshd && systemctl status sshd && echo "\033[34mPress any key to close (pls dont CTRL+C) \033[0m" && read && sudo systemctl stop sshd && systemctl status sshd'
 alias termbin='nc termbin.com 9999 | xclip'
@@ -107,7 +104,7 @@ alias k9s='TERM=xterm-256color k9s'
 # alias dotfiles='tmux new-window -n dotfiles -c ~/dotfiles/ "nvim -S; `which $SHELL`"'
 
 
-alias scopescreen='~/dotfiles/scripts/Scripts/scope-screen.sh'
+alias scopescreen='~/scripts/scope-screen.sh'
 # tempdir
 alias tmp='cd $(mktemp -d)'
 
