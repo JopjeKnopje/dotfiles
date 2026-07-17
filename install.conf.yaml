@@ -29,7 +29,7 @@
     ~/scripts: scripts
     ~/.Xresources: X11/.Xresources
     ~/.gitconfig:
-      if: '[ `hostname` != gamelan5]'
+      if: '[ `hostname` != gamelan5 ]'
       path: git/.gitconfig
       relink: true
     ~/:
