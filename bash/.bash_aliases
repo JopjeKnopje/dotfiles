@@ -94,6 +94,9 @@ alias mrt='make runt'
 alias mrm='make runm'
 
 
+# notification
+alias not='notify-send command done'
+
 # docker and kubernetes
 alias d='docker'
 alias dc='docker compose'
