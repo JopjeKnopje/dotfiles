@@ -63,8 +63,8 @@ Delta pager
 - [fzf-keybindings](https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line)
 - [git-fzf](https://github.com/junegunn/fzf-git.sh)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
--  [jless](https://github.com/PaulJuliusMartinez/jless)
--  [grc](https://github.com/garabik/grc)
+- [jless](https://github.com/PaulJuliusMartinez/jless)
+- [grc](https://github.com/garabik/grc)
 - [tmux](https://github.com/tmux/tmux)
 
 here is a handy [tmux cheatsheet](https://tmuxcheatsheet.com/) for learning some keybinds.

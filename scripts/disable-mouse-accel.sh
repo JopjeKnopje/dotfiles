@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export XAUTHORITY=/run/user/1000/gdm/Xauthority
-export DISPLAY=:1
+export DISPLAY=$(ls /tmp/.X11-unix | tr 'X' ':')
 
 # wait for device to become registered, otherwise xinput will fail
 sleep 2

@@ -1,7 +1,7 @@
 [Service]
 Type=oneshot
 RemainAfterExit=no
-ExecStart=/usr/bin/bash /home/joppe/scripts/disable-mouse-accel.sh
+ExecStart=/usr/bin/bash %h/scripts/disable-mouse-accel.sh
 
 [Install]
 WantedBy=multi-user.target
