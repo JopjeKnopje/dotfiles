@@ -156,6 +156,11 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 <br>
 <br>
 
+### Issues
+#### No display at decryption
+While booting a DELL latitude 5531, running POP os, with LUKS disk encryption. The external thunderbolt displays would not show the decryption prompt, instead the display would just be blank until the "regular" user login screen appeared. This was fixed by adding 2 firmware modules to the initramfs file.
+
+https://askubuntu.com/a/1528761
 
 ### Credits / inspo
 - [brw/dotfiles](https://github.com/brw/dotfiles)
