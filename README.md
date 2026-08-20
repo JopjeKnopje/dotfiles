@@ -106,7 +106,7 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [x] Taskbar on primary display
 - [ ] Setup polybar
 - [ ] Script to check if monitors are connected, if we cannot find any just use the default one (which is not built in)
-- [ ] Lock certain workspaces to second monitor (if we are running a second monitor setup, look into `include` keyword for i3, you can also do command substitution)
+- [x] Lock certain workspaces to second monitor (if we are running a second monitor setup, look into `include` keyword for i3, you can also do command substitution)
 - [ ] Screen timeout thingy
 - [ ] Keep split window open without filling screen (yeah I know...)
 - [ ] Move to newer non-apt-installed version of rofi
@@ -123,11 +123,6 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 - [ ] Setup tmux shortcuts to move back to previous session like `CTRL + o` in vim.
 - [ ] Fix nvim surround working.
 - [ ] Customize snacks.dashboard to disable all the shit we don't use.
-- [ ] Map `tms` to `tab`.
-- [ ] Remove terminal?
-- [ ] Try to write to python and JS to see if the dev envs are actually working properly
-- [ ] Move essentially the enitire lazy vim repo into the dotfiles, so the entire config is local.
-- [ ] Setup default language servers for shit I use.
 - [ ] Enable `folke/noice.nvim` so we can search through the notification list, but also disable the dumb-ass vscode style search bar.
 - [ ] Toggle images shortcut in markdown.
 - [x] Switch to kitty for better image rendering.
@@ -137,17 +132,13 @@ I've installed [tms v0.4.2](https://github.com/jrmoulton/tmux-sessionizer/releas
 ### Other
 - [ ] gitconfigs with `includeIf` for work setup https://stackoverflow.com/a/43654115/7363348
 - [ ] Add dynamic config that loads shit depending on the system its on, for example work laptop or codam pc.
-- [ ] Setup tmux mouse copy.
 - [ ] When running the `dotfiles` command tell nvim's `ctrl-f` to also search for hidden files.
 - [ ] Setup kubectx.
 - [ ] Setup kubectl config and way to switch between stuff projects.
-- [ ] Setup k9s.
-- [ ] Add script that "stows" all configs.
-- [ ] Add more info to README file.
-- [ ] Add list of all epic tools.
-- [ ] Add type of font used.
+- [x] Setup k9s.
+- [x] Add type of font used.
 - [ ] Tmux notification when command is done running (for terraform and the like). 
-- [ ] Add `./local` to this repo.
+- [ ] ~Add `./local` to this repo.~
 - [ ] Installation script which will download all the programs and setup their plugins.
 - [x] Markdown preview plugin for nvim
 - [ ] Switch to kitty for so we can skip ueberzug for image previews.
