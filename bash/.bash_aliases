@@ -95,7 +95,7 @@ alias mrm='make runm'
 
 
 # notification
-alias not='notify-send command done'
+alias bell='notify-send command done'
 
 # docker and kubernetes
 alias d='docker'
