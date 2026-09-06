@@ -1,3 +1,5 @@
+-- execute `.nvim.lua` for local project configs
+vim.opt.exrc = true
 -- add filetypes
 vim.filetype.add {
 	extension = {
