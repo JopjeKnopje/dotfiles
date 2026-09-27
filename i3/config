@@ -39,6 +39,8 @@ set $media_command ~/.config/i3/media-command.sh
 
 # we need to run it in the bg because other wise it will get killed due to the 2s sleep in the script.
 exec_always --no-startup-id ~/scripts/disable-mouse-accel.sh &
+exec_always --no-startup-id ~/scripts/disable_touchscreen.sh & 
+exec_always --no-startup-id ~/scripts/disable_touchpad.sh & 
 # setup settings for this machine
 # Grab the active set display, this is the one thats set with the display-switcher.sh script
 exec_always --no-startup-id ~/.config/i3/display/init.sh
