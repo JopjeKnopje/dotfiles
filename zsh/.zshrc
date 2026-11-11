@@ -59,16 +59,16 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
+# fix delete key on cachyos
+bindkey "^[[3~" delete-char
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
 setopt histignorealldups sharehistory
 
-# Use emacs keybindings even if our EDITOR is set to vi
-bindkey -e
-
 # History settings
+
 HISTSIZE=2000
 SAVEHIST=2000
 HISTFILE=~/.zsh_history
