@@ -8,7 +8,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Set up the prompt
+
+# Make new shells get the history lines from all previous
+# shells instead of the default "last window closed" history.
+
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+
+# set up the prompt
 
 autoload -Uz promptinit
 promptinit
@@ -171,7 +178,6 @@ then
 	# eval $(gardenctl kubectl-env zsh)
 	alias get_garden='eval $(gardenctl kubectl-env zsh)'
 fi
-
 
 
 export OBSIDIAN_VAULT_PATH=~/Documents/vault/
