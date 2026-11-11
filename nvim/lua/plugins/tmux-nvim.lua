@@ -1,6 +1,6 @@
 return {
   -- "aserowy/tmux.nvim",
-  "JopjeKnopje/tmux.nvim",
+  "aserowy/tmux.nvim",
   config = function()
     require("tmux").setup({
       navigation = {
