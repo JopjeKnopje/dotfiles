@@ -42,11 +42,6 @@ exec_always --no-startup-id ~/scripts/disable-mouse-accel.sh &
 exec_always --no-startup-id ~/scripts/disable_touchscreen.sh & 
 exec_always --no-startup-id ~/scripts/disable_touchpad.sh & 
 # setup settings for this machine
-# Grab the active set display, this is the one thats set with the display-switcher.sh script
-exec_always --no-startup-id ~/.config/i3/display/init.sh
-exec_always --no-startup-id ~/.config/i3/init-setting.sh dark-mode
-
-bindsym $mod+F12 exec --no-startup-id rofi -show ws -modi ws:"~/.config/i3/display-switcher.sh"
 
 exec killall -q notifiy-osd
 exec --no-startup-id dunst
@@ -168,8 +163,8 @@ set $ws8 "8"
 set $ws9 "9"
 # set $ws10 "10"
 
-output HDMI-A-1 transform 270 pos 0 0
-output DP-1 pos 1080 0
+output HDMI-A-1 transform 270 pos 0 0 bg ~/Pictures/wallpapers/el-capitan.png stretch
+output DP-1 pos 1080 0 bg ~/Pictures/wallpapers/el-capitan.png stretch
 
 workspace 0 output HDMI-A-1
 workspace 1 output DP-1
@@ -214,7 +209,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym $mod+Escape exec ~/.config/i3/power-menu.sh
+bindsym $mod+Escape exec ~/.config/sway/power-menu.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
