@@ -49,7 +49,7 @@ alias rmi='rm -i'
 # storage
 alias df="df -h"
 alias du="du -h"
-alias nf='neofetch'
+alias nf='fastfetch'
 alias of='onefetch --nerd-fonts'
 
 # SSH
