@@ -3,7 +3,6 @@
       relink: true
 
 - create:
-    - ~/.local/bin/
     - ~/.config/k9s/
 
 - clean: ['~']
@@ -12,22 +11,20 @@
     ~/:
       path: bash/.*
       glob: true
-    ~/.local/bin:
-      path: bin/*
-      glob: true
-    ~/.config/i3: i3
+    # ~/.config/i3: i3
+    # ~/.config/systemd: systemd
     ~/.config/k9s/:
       glob: true
       path: k9s/*
+    ~/.config/ghostty: ghostty
     ~/.config/lazygit: lazygit
     ~/.config/nvim: nvim
     ~/.config/rofi: rofi
     ~/.config/terminator: terminator
     ~/.config/tms: tms
-    ~/.config/systemd: systemd
     ~/.config/tmux: tmux
     ~/scripts: scripts
-    ~/.Xresources: X11/.Xresources
+    # ~/.Xresources: X11/.Xresources
     ~/.gitconfig:
       if: '[ `hostname` != gamelan5 ]'
       path: git/.gitconfig
