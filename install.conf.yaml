@@ -11,7 +11,7 @@
     ~/:
       path: bash/.*
       glob: true
-    # ~/.config/i3: i3
+    ~/.config/sway: i3
     # ~/.config/systemd: systemd
     ~/.config/k9s/:
       glob: true
