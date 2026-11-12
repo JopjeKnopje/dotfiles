@@ -6,24 +6,8 @@ return {
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
+    -- use neo-scroll instead
     scroll = { enabled = false },
-    dashboard = { enabled = true },
-    scope = { enabled = true },
-    bigfile = { enabled = true },
-    explorer = { enabled = true },
-    notifier = { enabled = true },
-    quickfile = { enabled = true },
-    statuscolumn = { enabled = true },
-
-    input = { enabled = true },
-    picker = {
-      enabled = true,
-      sources = {
-        explorer = {
-          ignored = true,
-        },
-      },
-    },
 
     words = {
       enabled = true,
@@ -43,6 +27,27 @@ return {
           return vim.g.snacks_indent ~= false and vim.b[buf].snacks_indent ~= false and vim.bo[buf].buftype == ""
         end
       end,
+    },
+    picker = {
+      enabled = true,
+      layouts = {
+        telescope = {
+          layout = {
+            backdrop = false,
+            width = 0.9,
+            height = 0.85,
+            reverse = true,
+            box = "vertical",
+            border = "rounded",
+            title = "{title} {live} {flags}",
+            title_pos = "center",
+            { win = "input", height = 1, border = "bottom" },
+            { win = "list", border = "none" },
+            { win = "preview", title = "{preview}", height = 0.8, border = "top" },
+          },
+        },
+      },
+      layout = "telescope",
     },
   },
 }

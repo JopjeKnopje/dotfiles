@@ -1,6 +1,5 @@
 return {
-  -- "aserowy/tmux.nvim",
-  "JopjeKnopje/tmux.nvim",
+  "aserowy/tmux.nvim",
   config = function()
     require("tmux").setup({
       navigation = {
@@ -13,7 +12,6 @@ return {
         -- prevents unzoom tmux when navigating beyond vim border
         persist_zoom = false,
 
-        auto_zoom = true,
       },
       copy_sync = {
         enable = false,
