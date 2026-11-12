@@ -35,7 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # setup and run scripts
-set $media_command ~/.config/i3/media-command.sh
+set $media_command ~/.config/sway/media-command.sh
 
 # we need to run it in the bg because other wise it will get killed due to the 2s sleep in the script.
 exec_always --no-startup-id ~/scripts/disable-mouse-accel.sh &
