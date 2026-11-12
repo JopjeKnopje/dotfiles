@@ -8,6 +8,10 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 
 
 ## Installation
+> [!NOTE] Bla bla update the outdated debian config
+
+install `wl-clipboard` for clipboard.
+
 
 Clone the repo
 
