@@ -10,7 +10,7 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 ## Installation
 > [!NOTE] Bla bla update the outdated debian config
 
-install `wl-clipboard` for clipboard.
+install `wl-clipboard swaybg playerctl swaylock brightnessctl nemo` 
 
 
 Clone the repo
