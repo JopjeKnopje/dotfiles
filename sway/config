@@ -57,7 +57,7 @@ set $menu rofi
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/joppe/Pictures/wallpapers/el-capitan.png fit
+output * bg /home/joppe/Pictures/wallpapers/el-capitan.png stretch
 #
 # Example configuration:
 #
