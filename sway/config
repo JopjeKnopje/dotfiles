@@ -34,6 +34,8 @@ shadows_on_csd enable
 # dim_inactive_colors.unfocused <hex color>
 # dim_inactive_colors.urgent <hex color> 
 
+for_window [class="Pinentry-*"] floating enable
+
 # Default config for Sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
