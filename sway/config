@@ -14,8 +14,8 @@ blur_radius 4
 
 # Window corners can be rounded in SwayFX
 # corner_radius can be any number of pixels
-corner_radius 15
-gaps inner 15
+corner_radius 0
+gaps inner 0
 # corner radius needs gaps to be visible
 
 # SwayFX also features window drop shadows, which, of course, can be enabled at any time
