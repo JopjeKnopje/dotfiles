@@ -1,0 +1,62 @@
+
+icons_format = "{icon}"
+
+[theme]
+theme = "semi-native"
+
+
+
+[icons]
+icons = "none"
+[icons.overrides]
+bat = ["|E|", "|_|", "|=|", "|F|"]
+bat_charging = "|^| "
+
+
+
+[[block]]
+block = "cpu"
+format = "CPU$utilization $barchart $frequency.eng(w:4)"
+info_cpu = 20
+warning_cpu = 50
+interval = 1
+critical_cpu = 90
+
+
+
+[[block]]
+block = "memory"
+format = " $icon $mem_used.eng(w:5) "
+
+[[block]]
+block = "memory"
+format = " $icon_swap $swap_used.eng(w:4) "
+
+[[block]]
+block = "net"
+format = "$speed_up↑ $speed_down↓"
+[[block]]
+block = "net"
+format = "$ip"
+
+
+[[block]]
+block = "disk_space"
+path = "/"
+info_type = "available"
+alert_unit = "GB"
+interval = 20
+warning = 20.0
+alert = 10.0
+format = " $icon $available.eng(w:2) "
+
+[[block]]
+block = "sound"
+[[block.click]]
+button = "left"
+cmd = "pavucontrol"
+
+[[block]]
+block = "time"
+interval = 5
+format = " $timestamp.datetime(f:'%T %v') "
