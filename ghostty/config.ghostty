@@ -63,3 +63,7 @@ confirm-close-surface=false
 background-opacity = 0.9
 theme = Builtin Tango Dark
 
+cursor-style = bar
+
+notify-on-command-finish = unfocused
+notify-on-command-finish-action = no-bell,notify
