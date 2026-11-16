@@ -20,6 +20,7 @@
       glob: true
       path: k9s/*
     ~/.config/lazygit: lazygit
+    ~/.config/ghostty: ghostty
     ~/.config/nvim: nvim
     ~/.config/rofi: rofi
     ~/.config/terminator: terminator
