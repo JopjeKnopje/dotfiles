@@ -10,7 +10,7 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 ## Installation
 > [!NOTE] Bla bla update the outdated debian config
 
-install `wl-clipboard swaybg playerctl swaylock brightnessctl nemo` 
+install `wl-clipboard swaybg playerctl swaylock brightnessctl nemo swaync`
 
 
 Clone the repo

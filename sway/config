@@ -70,6 +70,8 @@ output * bg /home/joppe/Pictures/wallpapers/el-capitan.png stretch
 	output DP-1 pos 1080 0
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
+exec swaync
+
 ### Idle configuration
 #
 # Example configuration:
@@ -127,6 +129,8 @@ output * bg /home/joppe/Pictures/wallpapers/el-capitan.png stretch
 
     bindsym $mod+b exec firefox
     bindsym $mod+f exec nemo
+
+    bindsym $mod+n exec swaync-client -t
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

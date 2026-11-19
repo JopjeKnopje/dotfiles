@@ -60,3 +60,14 @@ cmd = "pavucontrol"
 block = "time"
 interval = 5
 format = " $timestamp.datetime(f:'%T %v') "
+
+[[block]]
+block = "notify"
+format = " $icon {($notification_count.eng(w:1)) |}"
+driver = "swaync"
+[[block.click]]
+button = "left"
+action = "show"
+[[block.click]]
+button = "right"
+action = "toggle_paused"
