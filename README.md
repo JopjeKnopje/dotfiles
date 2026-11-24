@@ -10,7 +10,11 @@ Managed using [dotbot](https://github.com/anishathalye/dotbot).
 ## Installation
 > [!NOTE] Bla bla update the outdated debian config
 
-install `wl-clipboard swaybg playerctl swaylock brightnessctl nemo swaync`
+install
+```bash
+pacman -S wl-clipboard swaybg playerctl swaylock brightnessctl nemo swaync i3status-rs dunst sway-contrib
+```
+
 
 
 Clone the repo
