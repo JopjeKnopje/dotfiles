@@ -4,6 +4,13 @@ icons_format = "{icon}"
 [theme]
 theme = "semi-native"
 
+[[block]]
+block = "custom"
+command = "~/.local/bin/psu-toggle status"
+interval = 1
+[[block.click]]
+button = "left"
+cmd = "~/.local/bin/psu-toggle toggle"
 
 
 [icons]
