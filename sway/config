@@ -304,7 +304,10 @@ bindsym $mod+r mode "resize"
     # bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Special key to take a screenshot with grim
-    bindsym Print exec grim
+    # bindsym Print exec grim
+    set $screenshot_out ~/Pictures/Screenshots/screenshot-$(date +"%Y%m%d-%H%M%S").png
+    bindsym Print exec grimshot save anything $screenshot_out --notify
+    bindsym Ctrl+Print exec grimshot savecopy anything $screenshot_out --notify
 
 #
 # Status Bar:
