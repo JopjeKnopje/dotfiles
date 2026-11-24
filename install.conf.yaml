@@ -12,6 +12,7 @@
       path: bash/.*
       glob: true
     ~/.config/sway: sway
+    ~/.config/swaync: swaync
     # ~/.config/systemd: systemd
     ~/.config/k9s/:
       glob: true
