@@ -61,7 +61,7 @@ set $media_command ~/.config/sway/media-command.sh
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/joppe/Pictures/wallpapers/el-capitan.png stretch
+output * bg /home/joppe/Pictures/raccoon.jpg stretch
 #
 # Example configuration:
 #
